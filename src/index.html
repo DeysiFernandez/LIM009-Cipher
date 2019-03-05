@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
+<body>
+    <h1>Sorprende a </h1>
+     <p> Esta es una página web que te permite conversar con tus amigos, familia y entre otros para armar en 
+     secreto una sopresa a esa persona especial.
+      Esto se llevara acabo gracias al Cipher (cifrado), donde tu chat solo lo entenderas tu y las
+      personas que agreges.</p>
 
-  <body>
-    <div id="root">
-      <h1>Planea tu fiesta</h1>
-    </div>
-    <input id="mensaje" type="text">
+
+    <form >
+        
+       Nombre: <input type="text" id="name" placeholder="Escribe tu nombre">
+       Email: <input type="email" id="email" placeholder="Escribe tu email">
+       Contraseña:<input type="password" id="password" placeholder="Escribe tu contraseña ">
+        <input type="submit" value="Crear Contraseña">
+           
+    </form>
+
+
+    <form >
+       Mensaje: <textarea id="message" placeholder="Escribe tu mensaje"></textarea>
+       Posición: <input type="number" id="offset">
+       
+       <button input type="button" id="click">Cifrar</button>
+       Resultado: <textarea id="result" placeholder="Resultado del Cifrar"></textarea>
+    </form>
+    
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
-
-
+</body>
 </html>
