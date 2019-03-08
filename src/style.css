@@ -1,12 +1,15 @@
 /* Acá va tu código */
 body {
-background-image: url(https://i.pinimg.com/originals/69/15/d6/6915d690d4bcfdec938548f8bd7508dd.jpg)
+background-image: url(https://decoracion2.com/imagenes/2016/11/10-ideas-para-adornar-cumpleanos-de-adulto-14.jpg);
+
 }
 form {
 	width:25%;
 	border:1px solid #ccc;
-	margin:20px;
+	background: rgb(202, 217, 231);
+	margin:20px 2px;
 	padding:20px;
+	margin-left: 500px;
 }
 input, textarea, button{
 	margin-bottom:20px;
@@ -29,6 +32,14 @@ input[type="submit"],[type="button"]{
 input[type="submit"]:hover,[type="button"]:hover{
 	background:#4A88F4;
 	cursor: pointer;
+}
 
+h1{
+	color: rgb(73, 85, 245);
+	font-family: Arial, sans-serif;
+}
 
+.cipher {
+	margin: auto;
+	padding: 40px;
 }
