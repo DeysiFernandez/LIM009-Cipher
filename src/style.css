@@ -34,9 +34,15 @@ input[type="submit"]:hover,[type="button"]:hover{
 	cursor: pointer;
 }
 
-h1{
-	color: rgb(73, 85, 245);
+h1, h2{
+	color: rgb(34, 38, 88);
 	font-family: Arial, sans-serif;
+}
+p{
+	color:rgb(19, 18, 17);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+
 }
 
 .cipher {

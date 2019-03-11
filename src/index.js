@@ -18,7 +18,6 @@ const clickDecipher=()=>{
       let writtenMessage= result.value;
       let position=parseInt(number.value);
       let renewMessage = cipher.decode(writtenMessage,position);
-      console.log(renewMessage)
-      resultDecipher.innerHTML=renewMessage;
+      return resultDecipher.innerHTML=renewMessage;
 }
 buttonDecipher.addEventListener("click",clickDecipher);
