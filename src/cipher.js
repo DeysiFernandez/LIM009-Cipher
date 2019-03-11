@@ -49,7 +49,6 @@ window.cipher = {
     for(let i=0; i<string.length; i++){
       if(string[i].charCodeAt()>=65 && string[i].charCodeAt()<=90){
         let numberAscii=((((string[i].charCodeAt())-90)-offset)%26+90);
-        console.log(numberAscii);
         let letterCipher=String.fromCharCode(numberAscii);
         newMessage=newMessage+letterCipher;
 
